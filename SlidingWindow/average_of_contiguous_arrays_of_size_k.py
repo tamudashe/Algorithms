@@ -1,6 +1,8 @@
 """
 Given an array, find the average of all contiguous subarrays of size ‘K’ in it.
 """
+
+
 def average_contiguous_array(nums, k):
     averages = []
     window_start = 0
@@ -18,6 +20,7 @@ def average_contiguous_array(nums, k):
         window_start += 1
 
     return averages
+
 
 def main():
     test = [1, 3, 2, 6, -1, 4, 1, 8, 2]
