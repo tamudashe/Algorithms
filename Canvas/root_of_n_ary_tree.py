@@ -2,7 +2,7 @@
 Given all the nodes of an N-ary tree as an array Node[]
 tree where each node has a unique value.
 
-Find and return the root of the N-ary tree
+Find and return the root of the N-ary tree.
 """
 
 
