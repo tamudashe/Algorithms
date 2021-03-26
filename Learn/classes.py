@@ -1,7 +1,7 @@
 class Employee:
     """
     __init__ method is the constructor
-    - it is raa automatically whe the class is instantiated
+    - it is ran automatically whe the class is instantiated
     - the [self] argument is by convention, it can be any word
     - the self.[name] can also be changed to anything
     """
