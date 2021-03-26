@@ -19,6 +19,7 @@ def solution(nums, low, high, result):
     for i in range(low, high + 1):
         swap(nums, low, i)
         solution(nums, low + 1, high, result)
+        # backtracking
         swap(nums, low, i)
 
 
